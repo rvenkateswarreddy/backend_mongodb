@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
+    "build": "npm install",
     "server": "nodemon server.js",
     "venki": "npm run dev --prefix ./venki",
     "both": "concurrently \"npm run server\" \"npm run venki\""
